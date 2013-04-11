@@ -57,6 +57,11 @@ Here's an excerpt from the HTML completions:
 	list of completions. See :ref:`scopes-and-scope-selectors` for more
 	information.
 
+``contents``
+	The contents of a completion behave like the contents parameter of a snippet. With that you can use fields, environment variables, etc.
+	If you want to get a literal ``$``, you have to escape it like this: ``\$``.
+
+
 In the example above, we've used trigger-based completions only, but
 completions files support simple completions too. Simple completions are just
 plain strings. Expanding our example with a few simple completions, we'd end up
